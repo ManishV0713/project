@@ -1,0 +1,135 @@
+nav{
+
+  display: flex;
+  margin-top: 10px;
+  padding: 1px;
+  text-decoration: none;
+}
+nav a{
+  position: relative;
+  font-size: 1.4em;
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 6px 20px;
+  transition: .5s;
+
+}
+nav a:hover{
+  color:#a7d8e8 ;
+
+}
+nav a span{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  border-bottom: 2px solid #a7d8e8;
+  border-radius: 15px;
+  transform: scale(0) translateY(50px);
+  transition: .5s;
+}
+nav a:hover span{
+  transform: scale(1) translateY(0);
+
+}
+#n{
+  font-family: "Lucida Console", "Courier New", monospace;
+  
+  margin-left: 35px;
+  
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+body{
+    
+    color:white;
+    background-image: url("https://i.gifer.com/o3h.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Lucida Console", "Courier New", monospace;
+    background-size: 100%;
+    overflow-x: hidden;
+    margin: 0;
+}
+#home{
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  text-align: center;
+  font-size: 1.6em;
+  transform: translate(-20%,-50%);
+}
+.photo{
+  margin-top: 130px;
+  float: right;
+  margin-right: 5%;
+}
+.photo img{
+  width: 300px;
+  height: 300px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px 8px grey;
+}
+.photo img:hover{
+  box-shadow: 0px 0px 10px 10px lavenderblush;
+}
+.about{
+    color: black;
+    margin-top: 50%;
+    height: auto;
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    padding: 10px;
+    line-height: 250%;
+    letter-spacing: 0.5px;
+    border-radius: 30px;
+    background-color: #a7d8e8;
+    box-shadow: 0px 0px 10px 10px #a7d8e8;
+}
+
+.middle{
+  margin-top: 150px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+
+}
+.mid{
+  padding-top: 10px;
+  padding: 20px;
+  background:#a7d8e8 ;
+  border-radius: 20px;
+  align-content: center;
+  color: black;
+  text-align: left;
+  letter-spacing: 0.5px;
+  width: 30%;
+  margin-left: 30px;
+  box-shadow: 0px 0px 10px 10px #a7d8e8;
+
+}
+h1{
+  text-align: center;
+  margin-top: 100px;
+}
+.contact{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 75px;
+  margin-bottom: 100px;
+}
+.contact img{
+  width :75px;
+  height: 75px;
+}
+.contact img:hover{
+  box-shadow: 0px 0px 10px 5px #a7d8e8;
+  border-radius: 100px;
+
+}
+

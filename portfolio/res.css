@@ -1,0 +1,14 @@
+body{
+  text-align: center;
+  align-items: center;
+  background: black;
+  color: whitesmoke;
+}
+.button{
+  text-align: center;
+  margin-top: 25%;
+}
+.button button{
+  align-content: center;
+
+}
